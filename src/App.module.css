@@ -1,0 +1,65 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  max-width: 736px;
+  margin: 0 auto;
+}
+
+.addTodoWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: calc(0px - 1.5rem - 5px);
+}
+
+.addTodoWrapper input {
+  background: var(--gray-500);
+  height: 3.375rem;
+  width: 40rem;
+  padding: 1rem;
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+}
+
+.addTodoWrapper button {
+  background: var(--blue-500);
+  height: 3.375rem;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.addTodoWrapper button:hover {
+  opacity: 0.9;
+}
+
+.tasks {
+  width: 46rem;
+  margin: 4rem auto;
+}
+
+.tasksInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.tasksInfo p {
+   font-size: 0.875rem;
+   font-weight: 700;
+   line-height: 16.94px;
+   color: var(--blue-200);
+}
+
+.tasksInfo p span {
+  background: var(--gray-400);
+  color: var(--gray-100);
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-left: 8px;
+}
