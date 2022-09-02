@@ -46,6 +46,6 @@ ou:
 
 ## 🔗 Link
 
-![Todo](https://todo-list-chi-blue.vercel.app/)
+<a href="https://todo-list-chi-blue.vercel.app/">Todo</a>
 
 [⬆ Voltar ao topo](#todo-list)<br>
