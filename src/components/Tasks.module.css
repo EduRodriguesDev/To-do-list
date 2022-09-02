@@ -42,6 +42,7 @@
 
 .taskTitle {
   margin-left: calc(1.5rem + 12px);
+  text-align: justify;
 }
 
 .checkboxPersonalized svg {
@@ -72,4 +73,20 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  margin-left: 8px;
+}
+
+@media (min-width: 540px) {
+  .tasksList {
+    width: 100%;
+    background: var(--gray-500);
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid var(--gray-400);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  }
 }

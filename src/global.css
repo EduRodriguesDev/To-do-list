@@ -34,3 +34,15 @@ body, input, textarea, button {
   font-size: 1rem;
   color: var(--gray-100);
 }
+
+@media(max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@media(max-width: 412px) {
+  html {
+    font-size: 62.5%;
+  }
+}

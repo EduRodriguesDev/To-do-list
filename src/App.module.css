@@ -1,6 +1,4 @@
 .container {
-  width: 100vw;
-  height: 100vh;
   max-width: 736px;
   margin: 0 auto;
 }
@@ -35,7 +33,12 @@
 }
 
 .addTodoWrapper button:hover {
-  opacity: 0.9;
+  opacity: 0.8;
+}
+
+.addTodoWrapper button:disabled {
+  opacity: 0.6;
+  cursor: default;
 }
 
 .tasks {
@@ -62,4 +65,19 @@
   padding: 2px 8px;
   border-radius: 999px;
   margin-left: 8px;
+}
+
+@media(max-width: 645px) {
+  .addTodoWrapper input {
+    width: 25rem;
+  }
+
+  .addTodoWrapper button {
+    padding: 0.5rem;
+  }
+  
+  .tasks {
+    width: 30rem;
+    margin: 4rem auto;
+  }
 }
